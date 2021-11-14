@@ -4,7 +4,7 @@ const Home = () => {
     return(
         <div className="main">
             <div className="mainDiv">
-                <h1>Welcome ti React Fundamentals at Eleven Fifty</h1>
+                <h1>Welcome to React Fundamentals at Eleven Fifty</h1>
                 <p>
                     This app is intended to be a starter/tutorial app for your upcoming project and a learning sandbox for you in months and years to come should you continue to develop software with React. In this application, we will work through some of the basic React concepts, build out some small applications, and then unleash you to build your own applications.
                 </p>
@@ -19,7 +19,7 @@ const Home = () => {
                     <li>We have tried to collect the very best resources for this app, and we have cited those <Link to='/resources'>Here</Link>.</li>
                     <li>The set up for this app might be the most confusing part. Hang in there!</li>
                     <li>
-                        <link to='/resources'>React Resources</link>
+                        <Link to='/resources'>React Resources</Link>
                     </li>
                 </ul>
             </div>
