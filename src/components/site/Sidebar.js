@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 import Home from './Home';
 import Resources from './Resources';
+import FunctionalComponentsDemo from '../concepts/FunctionalComponentsDemo/FunctionalComponentsDemo';
 
 const Sidebar = () => {
     return(
@@ -13,7 +14,7 @@ const Sidebar = () => {
                 <ul className='sidebar-list list-unstyled'>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/resources'>Resources</Link></li>
-                    <li><Link to='/funtionalcomponent'>Functional Component</Link></li>
+                    <li><Link to='/functionalcomponentsdemo'>Functional Component</Link></li>
                 </ul>
             </div>
             <div className='sidebar-route'>
@@ -21,6 +22,7 @@ const Sidebar = () => {
                     <Route exact path='/home'><Home /></Route>
                     <Route exact path='/resources'><Resources /></Route>
                     <Route exact path='/'><Home /></Route>
+                    <Route exact path='/functionalcomponentsdemo'><FunctionalComponentsDemo /></Route>
                 </Switch>
             </div>
         </div>
