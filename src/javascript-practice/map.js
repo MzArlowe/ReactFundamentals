@@ -12,3 +12,13 @@ instructors.forEach(instructor => {
 });
 
 console.log(instructor_names);
+
+const instructorNames = instructors.map(instructor => instructor.name);
+console.log(instructorNames);
+
+//Exact same thing as above ^ but with different parameter name
+const instructorNamesTwo = instructors.map(i => i.name);
+console.log(instructorNamesTwo);
+
+const instructorInfo = instructors.map(i => i.name)
+console.log(instructorInfo);
