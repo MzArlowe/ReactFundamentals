@@ -4,6 +4,7 @@ const State = () => {
     return (
         <div className='main'>
             <div className='mainDiv'>
+                <h1>State is EPIC!</h1>
                 <ul>
                     <dt>UseState is a unique to Functional Components</dt>
                     <dd>Class components have a separate means of using and changing state</dd>

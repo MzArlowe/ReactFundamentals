@@ -45,45 +45,9 @@ const FunctionalComponentsDemo = () => {
                 </Col>
             </Row>
         </Container>
-        //     <h1>Functional Syntax vs Arrow Function</h1>
-        // </div>
-        // {/* <div>
-        //     Hello React
-        // </div>
-        // <div>
-        //     How are you today?
-        // </div> */}
-        //     </div>
-        // </div>
+        
     );
 };
-
-// let add = function (x, y) {
-//     return x + y;
-// }
-
-// let add = (x, y) => x + y;
-
-// //concise body syntax: Implied return
-// let func = x => x * x;
-// //block body syntax: explicit return needed
-// let func = (x, y) => {
-//     return x + y;
-// }
-
-// let greetUser = username => `Hello, ${username}!`;//version 1
-
-// let greetUserTwo = username => { //version 2; both 1 and 2 are exactly the same. 
-//     return `Hello, ${username}!`;
-// }
-
-// console.log(greetUser('Kenn') === greetUserTwo('Kenn')); //true
-
-// // simple version that represents the syntax of our React Component
-// let function = () => {
-//     console.log('Hello React');
-// };
-
 
 export default FunctionalComponentsDemo;
 
