@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import FunctionalComponents from './FunctionalComponentsDemo';
 import PropTypes from 'prop-types';
 
 const PropsDemo = () => {
